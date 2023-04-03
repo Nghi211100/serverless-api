@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "src": "/users",
+            "methods": [
+                "POST",
+                "GET",
+                "PUT",
+                "DELETE"
+            ],
+            "dest": "/api/user.ts"
+        }
+    ]
+}
